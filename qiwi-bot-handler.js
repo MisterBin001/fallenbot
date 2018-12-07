@@ -4,7 +4,7 @@ import { Users, QiwiWallets, PaymentsHistory } from '/lib/collections';
 
 const Telegraf = require('telegraf');
 const Qiwi = require('node-qiwi-api').Qiwi;
-const MyBot = new Telegraf("[TELEGRAM TOKEN HERE]");
+const MyBot = new Telegraf("716476964:AAEVlAEjKUtTHffcKdDsKbcSkT3SiZW44Qc");
 const bound = Meteor.bindEnvironment((callback) => { callback(); });
 
 Meteor.startup(() => {
